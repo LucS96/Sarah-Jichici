@@ -45,10 +45,12 @@ Body{
     margin: 0 auto;
     margin-top: 2%;
     text-transform: uppercase;
-    font-size: 16px; 
-    font-size: 3vw;
+    font-size: 10px; 
+    font-size: 2vw;
     letter-spacing: .5em;
     opacity: .7;
+    max-width: 500px;
+    margin-bottom: 5%;
 
 
 
@@ -59,10 +61,34 @@ Body{
 .logo{
     width: 100%;
 	max-width: 100% !important;
-	max-height: 100%;
+    max-height: 100%;
+    margin-bottom: 5%;
+}
+
+.btn{
+    
+    border-radius: 9px;
+    color: white;
+    font-size: 16px;
+    font-size: 2vw;
+    padding:2%;
+    border: solid white .1em;
+    text-decoration: none;
+    margin-top: 30%;
+}
+
+.btn:hover {
+    color: rbg(240,56, 96);
+
 }
 
 
+.outter{
+    margin: 0 auto;
+    vertical-align: middle;
+    
+
+}
 
 
 
